@@ -1,27 +1,18 @@
-class Calculater {
-    //Calculter calss blue print with which you can make instances (objects)
-    public int add(int x, int y) {
-        //add method
-        return x + y;
-    }
+class Students {
+    int rollno;
+    String name;
+    int marks;
+    
 
-    public void mult(int x, int y) {
-        System.out.println(x * y);
-    }
 }
-
-class Hello
-{
-    public static void main(String a[])
+    class Hello
     {
-        int x = 6;
-        int y = 7;
-        //create instance of Calculater simply objects
-        Calculater calc = new Calculater();
-        // now object created in calc variable and we can use object method add also;
-        int result = calc.add(x, y);
-        System.out.println(result);
-        calc.mult(4, 5);
+        public static void main(String a[])
+        {
+            StringBuffer name = new StringBuffer("sateesh");
+            name.append("vepada");//a lot of method to change string;
+            System.out.println(name);
+            System.out.println(name.capacity());
+        }
         
     }
-}
