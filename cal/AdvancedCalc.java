@@ -1,3 +1,4 @@
+package cal;
 public class AdvancedCalc extends Calc{
     public int mult(int n, int m) {
         return n * m;
